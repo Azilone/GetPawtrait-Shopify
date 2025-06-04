@@ -1,0 +1,11 @@
+name = "Pawtrait Customizer"
+handle = "pawtrait-customizer"
+version = "1"
+
+[[extensions]]
+type = "theme"
+name = "Pawtrait Customizer"
+class = "app-block"
+
+[capabilities]
+  metafields = true
