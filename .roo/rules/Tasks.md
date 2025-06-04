@@ -22,10 +22,10 @@ Each phase is broken down into major tasks and detailed subtasks that you can ex
   - [X] Review authentication flow (`routes/auth.$.tsx`, `routes/auth.login`)
   - [X] Familiarize yourself with Remix concepts (routes, loaders, actions)
 
-- [ ] **Set up version control**
-  - [ ] Initialize Git repository (if not already done)
-  - [ ] Create `.gitignore` to exclude node_modules, .env, and other sensitive files
-  - [ ] Make initial commit with template code
+- [X] **Set up version control**
+  - [X] Initialize Git repository (if not already done)
+  - [X] Create `.gitignore` to exclude node_modules, .env, and other sensitive files
+  - [X] Make initial commit with template code
 
 - [ ] **Configure environment variables**
   - [ ] Create/update `.env` file with required variables:
