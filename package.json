@@ -16,7 +16,9 @@
     "shopify": "shopify",
     "prisma": "prisma",
     "graphql-codegen": "graphql-codegen",
-    "vite": "vite"
+    "vite": "vite",
+    "extension:build": "npm --workspace extensions/pawtrait-customizer run build",
+    "extension:watch": "chokidar \"extensions/pawtrait-customizer/src/**\" -c \"npm run extension:build && shopify extension push --path=extensions/pawtrait-customizer\""
   },
   "type": "module",
   "engines": {
@@ -49,6 +51,8 @@
     "@types/node": "^22.2.0",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
+    "chokidar-cli": "3.0.0",
+    "concurrently": "9.1.2",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^10.0.1",
     "prettier": "^3.2.4",
